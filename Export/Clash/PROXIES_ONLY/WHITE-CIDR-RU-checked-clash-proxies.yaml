@@ -3,13 +3,13 @@
 # Источник/Source: WHITE-CIDR-RU-checked.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Только VK, Yandex, CDNvideo, Beeline
 # Количество/Quantity: 5
-# Date/Time: 2026-09-06 / 18:58 (Moscow)
+# Date/Time: 2026-09-06 / 20:13 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
 
 proxies:
-- name: Igareck Node 001 | 🇷🇺 Russia | [*CIDR] VK
+- name: Igareck Node 001 | 🇷🇺 Russia | 🌐 [*CIDR] VK
   type: vless
   server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
   port: 443
@@ -18,26 +18,12 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: "\x6d\x61\x78\x2e\x72\x75"
-  client-fingerprint: firefox
+  client-fingerprint: edge
   reality-opts:
     public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
     short-id: "e7"
   network: tcp
-- name: Igareck Node 002 | 🇷🇺 Russia | [*CIDR] VK
-  type: vless
-  server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
-  port: 443
-  uuid: "\x61\x66\x39\x63\x32\x62\x63\x66\x2d\x66\x65\x36\x38\x2d\x34\x33\x37\x39\x2d\x39\x63\x37\x38\x2d\x36\x65\x35\x66\x31\x62\x34\x61\x66\x30\x65\x32"
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: "\x6d\x61\x78\x2e\x72\x75"
-  client-fingerprint: qq
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: "e7"
-  network: tcp
-- name: Igareck Node 003 | 🇷🇺 Russia | 🌐 [*CIDR] VK
+- name: Igareck Node 002 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
   type: vless
   server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
   port: 443
@@ -51,7 +37,7 @@ proxies:
     public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
     short-id: "e7"
   network: tcp
-- name: Igareck Node 004 | 🇷🇺 Russia | 🌐 [*CIDR] VK
+- name: Igareck Node 003 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
   type: vless
   server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
   port: 443
@@ -65,7 +51,21 @@ proxies:
     public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
     short-id: "e7"
   network: tcp
-- name: Igareck Node 005 | 🇷🇺 Russia [*CIDR] VK
+- name: Igareck Node 004 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
+  type: vless
+  server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
+  port: 443
+  uuid: "\x61\x66\x39\x63\x32\x62\x63\x66\x2d\x66\x65\x36\x38\x2d\x34\x33\x37\x39\x2d\x39\x63\x37\x38\x2d\x36\x65\x35\x66\x31\x62\x34\x61\x66\x30\x65\x32"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: "\x6d\x61\x78\x2e\x72\x75"
+  client-fingerprint: qq
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: "e7"
+  network: tcp
+- name: Igareck Node 005 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
   type: vless
   server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
   port: 443

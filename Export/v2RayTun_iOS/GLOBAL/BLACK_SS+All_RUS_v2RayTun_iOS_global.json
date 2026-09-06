@@ -111,7 +111,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.165.236.142",
+            "address": "82.139.242.5",
             "port": 443,
             "users": [
               {
@@ -147,11 +147,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.139.242.5",
+            "address": "ex1ogt73nzpqkac2.v.3dns.vip",
             "port": 443,
             "users": [
               {
-                "id": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -166,10 +166,8 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/api/v1/gpu-stream/socket",
-          "headers": {
-            "Host": "renderer-stream-2-62.mirra.now"
-          }
+          "path": "/ws-vmess",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {}
@@ -267,95 +265,6 @@
         },
         "security": "tls",
         "tlsSettings": {}
-      }
-    },
-    {
-      "tag": "igareck-node-006",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.160.45.35",
-            "port": 38808,
-            "users": [
-              {
-                "id": "e619d224-0842-4576-a361-3ad2bf0c468c",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-007",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "littoral.appagent.net",
-            "port": 443,
-            "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-008",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "littoral.appagent.net",
-            "port": 443,
-            "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "qq"
-        }
       }
     },
     {

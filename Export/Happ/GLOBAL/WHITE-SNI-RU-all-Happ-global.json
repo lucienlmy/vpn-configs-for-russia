@@ -3,12 +3,12 @@
     "name": "WHITE-SNI-RU-all — Happ Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "4 proxies",
+      "5 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "Happ",
     "source": "WHITE-SNI-RU-all.txt",
-    "source_datetime": "2026-09-06 13:28 Moscow"
+    "source_datetime": "2026-09-06 18:58 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -345,33 +345,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.129.210.63",
+            "address": "141.0.184.240",
             "port": 8443,
             "users": [
               {
-                "id": "c80a96e8-d4a6-4785-b53b-a475b252c4ed",
-                "encryption": "none"
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "sun6-21.userapi.com",
-          "fingerprint": "edge",
-          "publicKey": "Z5WItgtmxxL_umUUIPO72kSTBGjlGg3sUPigtTG6wlI",
-          "shortId": "ac"
+          "serverName": "dzen.ru",
+          "fingerprint": "android",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5"
         }
       }
     },
@@ -381,33 +383,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.129.210.63",
+            "address": "141.0.184.240",
             "port": 8443,
             "users": [
               {
-                "id": "c80a96e8-d4a6-4785-b53b-a475b252c4ed",
-                "encryption": "none"
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "sun6-21.userapi.com",
-          "fingerprint": "firefox",
-          "publicKey": "Z5WItgtmxxL_umUUIPO72kSTBGjlGg3sUPigtTG6wlI",
-          "shortId": "ac"
+          "serverName": "dzen.ru",
+          "fingerprint": "edge",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5"
         }
       }
     },
@@ -417,33 +421,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "72.56.78.50",
-            "port": 443,
+            "address": "141.0.184.240",
+            "port": 8443,
             "users": [
               {
-                "id": "fee2cdd8-55d1-4c5b-a67a-cfde8d45eed0",
-                "encryption": "none"
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "sun6-21.userapi.com",
-          "fingerprint": "chrome",
-          "publicKey": "huH_8n0Dfk4iolIkzrc-qET8ySHWgZAr-i6K6lr6xSs",
-          "shortId": "375838bc17c0"
+          "serverName": "dzen.ru",
+          "fingerprint": "firefox",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5"
         }
       }
     },
@@ -453,33 +459,73 @@
       "settings": {
         "vnext": [
           {
-            "address": "72.56.78.50",
-            "port": 443,
+            "address": "141.0.184.240",
+            "port": 8443,
             "users": [
               {
-                "id": "fee2cdd8-55d1-4c5b-a67a-cfde8d45eed0",
-                "encryption": "none"
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "sun6-21.userapi.com",
-          "fingerprint": "firefox",
-          "publicKey": "huH_8n0Dfk4iolIkzrc-qET8ySHWgZAr-i6K6lr6xSs",
-          "shortId": "375838bc17c0"
+          "serverName": "dzen.ru",
+          "fingerprint": "ios",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.0.184.240",
+            "port": 8443,
+            "users": [
+              {
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dzen.ru",
+          "fingerprint": "safari",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5"
         }
       }
     },

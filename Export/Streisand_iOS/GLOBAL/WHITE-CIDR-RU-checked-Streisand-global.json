@@ -372,7 +372,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn2.24lider.ru",
+            "address": "84.201.158.136",
             "port": 443,
             "users": [
               {
@@ -398,7 +398,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "cdn2.24lider.ru",
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -408,7 +408,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn2.24lider.ru",
+            "address": "84.201.158.136",
             "port": 443,
             "users": [
               {
@@ -434,7 +434,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "cdn2.24lider.ru",
-          "fingerprint": "edge"
+          "fingerprint": "ios"
         }
       }
     },
@@ -470,7 +470,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "cdn2.24lider.ru",
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -480,11 +480,81 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn2.24lider.ru",
-            "port": 443,
+            "address": "84.201.142.221",
+            "port": 33743,
             "users": [
               {
-                "id": "d4719d52-c3fc-4651-98e1-535dbd77dbcf",
+                "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "TunService",
+          "multiMode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.google.com",
+          "fingerprint": "android",
+          "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.142.221",
+            "port": 33743,
+            "users": [
+              {
+                "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "TunService",
+          "multiMode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.google.com",
+          "fingerprint": "firefox",
+          "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.17.175",
+            "port": 8443,
+            "users": [
+              {
+                "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -503,10 +573,50 @@
             "type": "none"
           }
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn2.24lider.ru",
-          "fingerprint": "ios"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ya.ru",
+          "fingerprint": "firefox",
+          "publicKey": "BVwyZUEoTujbWy-7QczfJyYAsHw2y_H8SMMfbK5AEho",
+          "shortId": "81dd866769f057"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.17.175",
+            "port": 8443,
+            "users": [
+              {
+                "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ya.ru",
+          "fingerprint": "qq",
+          "publicKey": "BVwyZUEoTujbWy-7QczfJyYAsHw2y_H8SMMfbK5AEho",
+          "shortId": "81dd866769f057"
         }
       }
     },

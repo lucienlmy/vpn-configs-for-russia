@@ -3,12 +3,12 @@
     "name": "WHITE-CIDR-RU-checked — v2rayNG Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "5 proxies",
+      "12 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "v2rayNG",
     "source": "WHITE-CIDR-RU-checked.txt",
-    "source_datetime": "2026-09-06 02:18 Moscow"
+    "source_datetime": "2026-09-06 05:43 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -349,7 +349,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
+                "id": "12277705-73f4-4794-9386-df46a7545b50",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -387,7 +387,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
+                "id": "12277705-73f4-4794-9386-df46a7545b50",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -425,7 +425,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
+                "id": "12277705-73f4-4794-9386-df46a7545b50",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -463,7 +463,7 @@
             "port": 443,
             "users": [
               {
-                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
+                "id": "12277705-73f4-4794-9386-df46a7545b50",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -485,7 +485,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "edge-pull-m4.malina24.xyz",
-          "fingerprint": "qq",
+          "fingerprint": "safari",
           "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
           "shortId": "5678"
         }
@@ -523,7 +523,273 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "qq",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "edge-pull-m4.malina24.xyz",
           "fingerprint": "safari",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "ed131f3a-0a48-43a2-bdef-59bb6a4e5214",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "android",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "ed131f3a-0a48-43a2-bdef-59bb6a4e5214",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "edge",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "ed131f3a-0a48-43a2-bdef-59bb6a4e5214",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "firefox",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-010",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "ed131f3a-0a48-43a2-bdef-59bb6a4e5214",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "safari",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-011",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "firefox",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-012",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "ios",
           "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
           "shortId": "5678"
         }

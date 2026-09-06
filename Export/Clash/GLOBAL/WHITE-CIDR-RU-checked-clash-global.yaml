@@ -2,8 +2,8 @@
 # Igareck Mihomo Subscription
 # Источник/Source: WHITE-CIDR-RU-checked.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Только VK, Yandex, CDNvideo, Beeline
-# Количество/Quantity: 10
-# Date/Time: 2026-09-06 / 17:53 (Moscow)
+# Количество/Quantity: 5
+# Date/Time: 2026-09-06 / 18:58 (Moscow)
 #
 # Режим / Mode:
 # - Автоматический Выбор лучшего прокси / Igareck Auto Select;
@@ -154,105 +154,7 @@ sniffer:
       ports: [443, 8443]
 
 proxies:
-- name: Igareck Node 001 | 🇵🇱 Poland | [*CIDR] YA
-  type: vless
-  server: "\x38\x34\x2e\x32\x30\x31\x2e\x31\x34\x32\x2e\x32\x32\x31"
-  port: 33743
-  uuid: "\x62\x33\x61\x31\x31\x30\x36\x38\x2d\x31\x61\x37\x65\x2d\x34\x36\x34\x33\x2d\x38\x35\x64\x65\x2d\x37\x63\x38\x32\x63\x63\x65\x34\x36\x39\x34\x33"
-  udp: true
-  tls: true
-  servername: "\x77\x77\x77\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: Igareck Node 002 | 🇵🇱 Poland | [*CIDR] YA
-  type: vless
-  server: "\x38\x34\x2e\x32\x30\x31\x2e\x31\x34\x32\x2e\x32\x32\x31"
-  port: 33743
-  uuid: "\x62\x33\x61\x31\x31\x30\x36\x38\x2d\x31\x61\x37\x65\x2d\x34\x36\x34\x33\x2d\x38\x35\x64\x65\x2d\x37\x63\x38\x32\x63\x63\x65\x34\x36\x39\x34\x33"
-  udp: true
-  tls: true
-  servername: "\x77\x77\x77\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: edge
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: Igareck Node 003 | 🇵🇱 Poland | [*CIDR] YA
-  type: vless
-  server: "\x38\x34\x2e\x32\x30\x31\x2e\x31\x34\x32\x2e\x32\x32\x31"
-  port: 33743
-  uuid: "\x62\x33\x61\x31\x31\x30\x36\x38\x2d\x31\x61\x37\x65\x2d\x34\x36\x34\x33\x2d\x38\x35\x64\x65\x2d\x37\x63\x38\x32\x63\x63\x65\x34\x36\x39\x34\x33"
-  udp: true
-  tls: true
-  servername: "\x77\x77\x77\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: Igareck Node 004 | 🇵🇱 Poland | [*CIDR] YA
-  type: vless
-  server: "\x38\x34\x2e\x32\x30\x31\x2e\x31\x34\x32\x2e\x32\x32\x31"
-  port: 33743
-  uuid: "\x62\x33\x61\x31\x31\x30\x36\x38\x2d\x31\x61\x37\x65\x2d\x34\x36\x34\x33\x2d\x38\x35\x64\x65\x2d\x37\x63\x38\x32\x63\x63\x65\x34\x36\x39\x34\x33"
-  udp: true
-  tls: true
-  servername: "\x77\x77\x77\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: ios
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: Igareck Node 005 | 🇵🇱 Poland | [*CIDR] YA
-  type: vless
-  server: "\x38\x34\x2e\x32\x30\x31\x2e\x31\x34\x32\x2e\x32\x32\x31"
-  port: 33743
-  uuid: "\x62\x33\x61\x31\x31\x30\x36\x38\x2d\x31\x61\x37\x65\x2d\x34\x36\x34\x33\x2d\x38\x35\x64\x65\x2d\x37\x63\x38\x32\x63\x63\x65\x34\x36\x39\x34\x33"
-  udp: true
-  tls: true
-  servername: "\x77\x77\x77\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: safari
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: Igareck Node 006 | 🇷🇺 Russia | 🌐 [*CIDR] VK
-  type: vless
-  server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
-  port: 443
-  uuid: "\x61\x66\x39\x63\x32\x62\x63\x66\x2d\x66\x65\x36\x38\x2d\x34\x33\x37\x39\x2d\x39\x63\x37\x38\x2d\x36\x65\x35\x66\x31\x62\x34\x61\x66\x30\x65\x32"
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: "\x6d\x61\x78\x2e\x72\x75"
-  client-fingerprint: ios
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: "e7"
-  network: tcp
-- name: Igareck Node 007 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
-  type: vless
-  server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
-  port: 443
-  uuid: "\x61\x66\x39\x63\x32\x62\x63\x66\x2d\x66\x65\x36\x38\x2d\x34\x33\x37\x39\x2d\x39\x63\x37\x38\x2d\x36\x65\x35\x66\x31\x62\x34\x61\x66\x30\x65\x32"
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: "\x6d\x61\x78\x2e\x72\x75"
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: "e7"
-  network: tcp
-- name: Igareck Node 008 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
+- name: Igareck Node 001 | 🇷🇺 Russia | [*CIDR] VK
   type: vless
   server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
   port: 443
@@ -266,7 +168,7 @@ proxies:
     public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
     short-id: "e7"
   network: tcp
-- name: Igareck Node 009 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
+- name: Igareck Node 002 | 🇷🇺 Russia | [*CIDR] VK
   type: vless
   server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
   port: 443
@@ -280,7 +182,35 @@ proxies:
     public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
     short-id: "e7"
   network: tcp
-- name: Igareck Node 010 | 🇷🇺 Russia | 🌐 | [*CIDR] VK
+- name: Igareck Node 003 | 🇷🇺 Russia | 🌐 [*CIDR] VK
+  type: vless
+  server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
+  port: 443
+  uuid: "\x61\x66\x39\x63\x32\x62\x63\x66\x2d\x66\x65\x36\x38\x2d\x34\x33\x37\x39\x2d\x39\x63\x37\x38\x2d\x36\x65\x35\x66\x31\x62\x34\x61\x66\x30\x65\x32"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: "\x6d\x61\x78\x2e\x72\x75"
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: "e7"
+  network: tcp
+- name: Igareck Node 004 | 🇷🇺 Russia | 🌐 [*CIDR] VK
+  type: vless
+  server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
+  port: 443
+  uuid: "\x61\x66\x39\x63\x32\x62\x63\x66\x2d\x66\x65\x36\x38\x2d\x34\x33\x37\x39\x2d\x39\x63\x37\x38\x2d\x36\x65\x35\x66\x31\x62\x34\x61\x66\x30\x65\x32"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: "\x6d\x61\x78\x2e\x72\x75"
+  client-fingerprint: ios
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: "e7"
+  network: tcp
+- name: Igareck Node 005 | 🇷🇺 Russia [*CIDR] VK
   type: vless
   server: "\x32\x31\x37\x2e\x31\x36\x2e\x33\x31\x2e\x31\x36\x32"
   port: 443

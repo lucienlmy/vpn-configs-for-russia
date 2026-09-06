@@ -2,8 +2,8 @@
 # Igareck Mihomo Subscription
 # Источник/Source: BLACK_SS+All_RUS.txt
 # 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | SS, Hy2, Vmess, Trojan
-# Количество/Quantity: 52
-# Date/Time: 2026-09-06 / 09:05 (Moscow)
+# Количество/Quantity: 37
+# Date/Time: 2026-09-06 / 10:40 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
@@ -25,51 +25,11 @@ proxies:
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   udp: true
-  sni: speedtest.tinkoff.ru
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 003 | 🇦🇺 Australia， Sydney | 🌐 | [BL]
-  type: hysteria2
-  server: "\x76\x70\x6e\x2d\x61\x75\x2d\x30\x30\x32\x2e\x66\x61\x73\x74\x65\x72\x76\x70\x6e\x2e\x77\x6f\x72\x6c\x64"
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  udp: true
   sni: t.me
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 004 | 🇨🇳 China， Haidian (Haidian Qu) | [BL]
-  type: hysteria2
-  server: "\x78\x67\x31\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
-  port: 2056
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  udp: true
-  sni: hdlb1.mangshe.xyz
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 005 | 🇫🇮 Finland， Helsinki | [BL]
-  type: hysteria2
-  server: "\x66\x72\x2e\x76\x70\x6e\x2e\x6c\x65\x67\x65\x6e\x64\x61\x61\x68\x2e\x78\x79\x7a"
-  port: 36723
-  password: Krab9Hyst2_Rk7pQ2xL
-  udp: true
-  sni: fr.vpn.legendaah.xyz
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 006 | 🇫🇮 Finland， Helsinki | [BL]
-  type: hysteria2
-  server: "\x66\x72\x2e\x76\x70\x6e\x2e\x6c\x65\x67\x65\x6e\x64\x61\x61\x68\x2e\x78\x79\x7a"
-  port: 36723
-  password: Krab9Hyst2_Rk7pQ2xL
-  udp: true
-  sni: 127.0.0.1
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 007 | 🇩🇪 Germany， Frankfurt am Main (Innenstadt I) | [BL]
+- name: Igareck Node 003 | 🇩🇪 Germany， Frankfurt am Main (Innenstadt I) | [BL]
   type: hysteria2
   server: "\x64\x65\x75\x30\x30\x30\x33\x6e\x74\x72\x68\x79\x30\x31\x2e\x74\x63\x70\x2d\x72\x65\x73\x65\x74\x2d\x63\x6c\x75\x62\x2e\x6e\x65\x74"
   port: 443
@@ -79,7 +39,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 008 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+- name: Igareck Node 004 | 🇭🇰 Hong Kong， Hong Kong | [BL]
   type: hysteria2
   server: "\x6d\x7a\x2e\x68\x6b\x79\x63\x68\x69\x6e\x61\x2e\x63\x6f\x6d"
   port: 8443
@@ -88,7 +48,7 @@ proxies:
   sni: mz.hkychina.com
   alpn:
   - h3
-- name: Igareck Node 009 | 🇮🇳 India， Mumbai | 🌐 | [BL]
+- name: Igareck Node 005 | 🇮🇳 India， Mumbai | 🌐 | [BL]
   type: hysteria2
   server: "\x76\x70\x6e\x2d\x69\x6e\x2d\x30\x30\x31\x2e\x66\x61\x73\x74\x65\x72\x76\x70\x6e\x2e\x77\x6f\x72\x6c\x64"
   port: 443
@@ -98,7 +58,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 010 | 🇯🇵 Japan， Inzai (Otsuka) | [BL]
+- name: Igareck Node 006 | 🇯🇵 Japan， Inzai (Otsuka) | [BL]
   type: hysteria2
   server: "\x31\x33\x38\x2e\x33\x2e\x32\x30\x38\x2e\x32\x36"
   port: 50160
@@ -108,7 +68,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 011 | 🇯🇵 Japan， Inzai (Otsuka) | [BL]
+- name: Igareck Node 007 | 🇯🇵 Japan， Inzai (Otsuka) | [BL]
   type: hysteria2
   server: "\x31\x34\x30\x2e\x32\x33\x38\x2e\x34\x33\x2e\x30"
   port: 50160
@@ -118,7 +78,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 012 | 🇲🇾 Malaysia， Cyberjaya | [BL]
+- name: Igareck Node 008 | 🇲🇾 Malaysia， Cyberjaya | [BL]
   type: hysteria2
   server: "\x6d\x6c\x78\x79\x32\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
   port: 2060
@@ -128,7 +88,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 013 | 🇷🇴 Romania， Bucharest | [BL]
+- name: Igareck Node 009 | 🇷🇴 Romania， Bucharest | [BL]
   type: hysteria2
   server: "\x72\x6f\x75\x30\x30\x30\x31\x6e\x74\x72\x68\x79\x30\x31\x2e\x74\x63\x70\x2d\x72\x65\x73\x65\x74\x2d\x63\x6c\x75\x62\x2e\x6e\x65\x74"
   port: 443
@@ -138,17 +98,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 014 | 🇸🇬 Singapore， Singapore | [BL]
-  type: hysteria2
-  server: "\x34\x37\x2e\x32\x34\x31\x2e\x31\x30\x38\x2e\x32\x32\x37"
-  port: 50160
-  password: 436114b5f36b2e704bdfa0927d57b6cd
-  udp: true
-  sni: www.bing.com
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 015 | 🇸🇬 Singapore， Singapore (Loyang) | 🌐 | [BL]
+- name: Igareck Node 010 | 🇸🇬 Singapore， Singapore (Loyang) | 🌐 | [BL]
   type: hysteria2
   server: "\x31\x33\x38\x2e\x32\x2e\x37\x33\x2e\x32\x33\x38"
   port: 50160
@@ -158,7 +108,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 016 | 🇰🇷 South Korea， Chuncheon-si | [BL]
+- name: Igareck Node 011 | 🇰🇷 South Korea， Chuncheon-si | [BL]
   type: hysteria2
   server: "\x31\x35\x32\x2e\x36\x37\x2e\x32\x30\x30\x2e\x38\x32"
   port: 50160
@@ -168,7 +118,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 017 | 🇰🇷 South Korea， Chuncheon-si | [BL]
+- name: Igareck Node 012 | 🇰🇷 South Korea， Chuncheon-si | [BL]
   type: hysteria2
   server: "\x31\x35\x32\x2e\x36\x37\x2e\x32\x30\x30\x2e\x38\x32"
   port: 50160
@@ -178,7 +128,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 018 | 🇰🇷 South Korea， Yangcheondong | [BL]
+- name: Igareck Node 013 | 🇰🇷 South Korea， Yangcheondong | [BL]
   type: hysteria2
   server: "\x31\x33\x32\x2e\x32\x32\x36\x2e\x32\x32\x36\x2e\x31\x38\x39"
   port: 50160
@@ -188,7 +138,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 019 | 🇰🇷 South Korea， Yangcheondong | [BL]
+- name: Igareck Node 014 | 🇰🇷 South Korea， Yangcheondong | [BL]
   type: hysteria2
   server: "\x31\x33\x31\x2e\x31\x38\x36\x2e\x31\x39\x2e\x31\x37\x34"
   port: 50160
@@ -198,7 +148,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 020 | 🇰🇷 South Korea， Yangcheondong | [BL]
+- name: Igareck Node 015 | 🇰🇷 South Korea， Yangcheondong | [BL]
   type: hysteria2
   server: "\x31\x33\x31\x2e\x31\x38\x36\x2e\x31\x39\x2e\x31\x37\x34"
   port: 50160
@@ -208,7 +158,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 021 | 🇰🇷 South Korea， Yangcheondong | [BL]
+- name: Igareck Node 016 | 🇰🇷 South Korea， Yangcheondong | [BL]
   type: hysteria2
   server: "\x31\x33\x31\x2e\x31\x38\x36\x2e\x31\x39\x2e\x31\x37\x34"
   port: 50160
@@ -218,7 +168,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 022 | 🇨🇭 Switzerland | 🌐 | [BL]
+- name: Igareck Node 017 | 🇨🇭 Switzerland | 🌐 | [BL]
   type: hysteria2
   server: "\x63\x68\x65\x30\x31\x70\x6c\x72\x68\x79\x30\x31\x2e\x74\x63\x70\x2d\x72\x65\x73\x65\x74\x2d\x63\x6c\x75\x62\x2e\x6e\x65\x74"
   port: 443
@@ -228,7 +178,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 023 | 🇨🇭 Switzerland | 🌐 | [BL]
+- name: Igareck Node 018 | 🇨🇭 Switzerland | 🌐 | [BL]
   type: hysteria2
   server: "\x63\x68\x65\x30\x31\x70\x6c\x72\x68\x79\x30\x31\x2e\x74\x63\x70\x2d\x72\x65\x73\x65\x74\x2d\x63\x6c\x75\x62\x2e\x6e\x65\x74"
   port: 443
@@ -238,7 +188,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 024 | 🇨🇭 Switzerland | 🌐 | [BL]
+- name: Igareck Node 019 | 🇨🇭 Switzerland | 🌐 | [BL]
   type: hysteria2
   server: "\x63\x68\x65\x30\x31\x70\x6c\x72\x68\x79\x30\x31\x2e\x74\x63\x70\x2d\x72\x65\x73\x65\x74\x2d\x63\x6c\x75\x62\x2e\x6e\x65\x74"
   port: 443
@@ -248,7 +198,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 025 | 🇨🇭 Switzerland， Oberengstringen | 🌐 | [BL]
+- name: Igareck Node 020 | 🇨🇭 Switzerland， Oberengstringen | 🌐 | [BL]
   type: hysteria2
   server: "\x31\x34\x30\x2e\x32\x33\x38\x2e\x32\x31\x33\x2e\x31\x31\x34"
   port: 50160
@@ -258,7 +208,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 026 | 🇳🇱 The Netherlands， Amsterdam (Amsterdam-Zuidoost) | [BL]
+- name: Igareck Node 021 | 🇳🇱 The Netherlands， Amsterdam (Amsterdam-Zuidoost) | [BL]
   type: hysteria2
   server: "\x6e\x6c\x30\x31\x6e\x74\x72\x68\x79\x30\x31\x2e\x74\x63\x70\x2d\x72\x65\x73\x65\x74\x2d\x63\x6c\x75\x62\x2e\x6e\x65\x74"
   port: 443
@@ -268,7 +218,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 027 | 🇬🇧 United Kingdom， London | [BL]
+- name: Igareck Node 022 | 🇬🇧 United Kingdom， London | [BL]
   type: hysteria2
   server: "\x6c\x61\x62\x73\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
   port: 443
@@ -278,7 +228,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 028 | 🇺🇸 United States， Los Angeles | [BL]
+- name: Igareck Node 023 | 🇺🇸 United States， Los Angeles | [BL]
   type: hysteria2
   server: "\x31\x39\x32\x2e\x32\x32\x30\x2e\x35\x36\x2e\x37\x32"
   port: 8882
@@ -288,47 +238,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 029 | 🇭🇰 Hong Kong， Hong Kong | [BL]
-  type: vmess
-  server: "\x65\x6a\x6f\x6d\x73\x78\x70\x74\x70\x31\x39\x61\x70\x79\x67\x6c\x2e\x76\x2e\x33\x64\x6e\x73\x2e\x76\x69\x70"
-  port: 443
-  uuid: "\x66\x32\x33\x62\x62\x34\x32\x37\x63\x31\x66\x39\x34\x33\x37\x33\x38\x37\x36\x63\x32\x66\x34\x33\x65\x39\x66\x37\x39\x30\x66\x33"
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: "\x65\x6a\x6f\x6d\x73\x78\x70\x74\x70\x31\x39\x61\x70\x79\x67\x6c\x2e\x76\x2e\x33\x64\x6e\x73\x2e\x76\x69\x70"
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
-- name: Igareck Node 030 | 🇭🇰 Hong Kong， Hong Kong | [BL]
-  type: vmess
-  server: "\x65\x6a\x6f\x6d\x73\x78\x70\x74\x70\x31\x39\x61\x70\x79\x67\x6c\x2e\x76\x2e\x33\x64\x6e\x73\x2e\x76\x69\x70"
-  port: 443
-  uuid: "\x66\x32\x33\x62\x62\x34\x32\x37\x63\x31\x66\x39\x34\x33\x37\x33\x38\x37\x36\x63\x32\x66\x34\x33\x65\x39\x66\x37\x39\x30\x66\x33"
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-- name: Igareck Node 031 | 🇳🇱 The Netherlands， Amsterdam | [BL]
-  type: vmess
-  server: "\x37\x38\x2e\x31\x37\x2e\x37\x31\x2e\x32\x33\x36"
-  port: 33736
-  uuid: "\x62\x33\x61\x31\x31\x30\x36\x38\x2d\x31\x61\x37\x65\x2d\x34\x36\x34\x33\x2d\x38\x35\x64\x65\x2d\x37\x63\x38\x32\x63\x63\x65\x34\x36\x39\x34\x33"
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-- name: Igareck Node 032 | 🇫🇷 France， Lyon | [BL]
+- name: Igareck Node 024 | 🇫🇷 France， Lyon | [BL]
   type: trojan
   server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
   port: 1105
@@ -337,16 +247,7 @@ proxies:
   client-fingerprint: android
   network: tcp
   skip-cert-verify: true
-- name: Igareck Node 033 | 🇫🇷 France， Lyon | [BL]
-  type: trojan
-  server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
-  port: 1105
-  password: kakashka13222
-  udp: true
-  client-fingerprint: chrome
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 034 | 🇫🇷 France， Lyon | [BL]
+- name: Igareck Node 025 | 🇫🇷 France， Lyon | [BL]
   type: trojan
   server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
   port: 1105
@@ -355,36 +256,36 @@ proxies:
   client-fingerprint: edge
   network: tcp
   skip-cert-verify: true
-- name: Igareck Node 035 | 🇫🇷 France， Lyon | [BL]
+- name: Igareck Node 026 | 🇫🇷 France， Lyon | [BL]
   type: trojan
   server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
   port: 1105
   password: kakashka13222
   udp: true
-  client-fingerprint: firefox
+  client-fingerprint: safari
   network: tcp
   skip-cert-verify: true
-- name: Igareck Node 036 | 🇫🇷 France， Lyon | [BL]
-  type: trojan
-  server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
-  port: 1105
-  password: kakashka13222
-  udp: true
-  sni: 194.9.172.236
-  client-fingerprint: android
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 037 | 🇫🇷 France， Lyon | [BL]
+- name: Igareck Node 027 | 🇫🇷 France， Lyon | [BL]
   type: trojan
   server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
   port: 1105
   password: kakashka13222
   udp: true
   sni: 194.9.172.236
+  client-fingerprint: edge
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 028 | 🇫🇷 France， Lyon | [BL]
+  type: trojan
+  server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
+  port: 1105
+  password: kakashka13222
+  udp: true
+  sni: 194.9.172.236
   client-fingerprint: firefox
   network: tcp
   skip-cert-verify: true
-- name: Igareck Node 038 | 🇫🇷 France， Lyon | [BL]
+- name: Igareck Node 029 | 🇫🇷 France， Lyon | [BL]
   type: trojan
   server: "\x31\x39\x34\x2e\x39\x2e\x31\x37\x32\x2e\x32\x33\x36"
   port: 1105
@@ -394,7 +295,7 @@ proxies:
   client-fingerprint: ios
   network: tcp
   skip-cert-verify: true
-- name: Igareck Node 039 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 030 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -410,7 +311,7 @@ proxies:
     headers:
       Host: op-1.firecone.eu
   skip-cert-verify: true
-- name: Igareck Node 040 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 031 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -426,7 +327,7 @@ proxies:
     headers:
       Host: op-1.firecone.eu
   skip-cert-verify: true
-- name: Igareck Node 041 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 032 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -442,7 +343,7 @@ proxies:
     headers:
       Host: op-1.firecone.eu
   skip-cert-verify: true
-- name: Igareck Node 042 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 033 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -458,7 +359,7 @@ proxies:
     headers:
       Host: op-1.firecone.eu
   skip-cert-verify: true
-- name: Igareck Node 043 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 034 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -474,7 +375,7 @@ proxies:
     headers:
       Host: op-1.firecone.eu
   skip-cert-verify: true
-- name: Igareck Node 044 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 035 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -488,7 +389,7 @@ proxies:
     headers:
       Host: op-1.firecone.eu
   skip-cert-verify: true
-- name: Igareck Node 045 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 036 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -502,7 +403,7 @@ proxies:
     headers:
       Host: op-1.firecone.eu
   skip-cert-verify: true
-- name: Igareck Node 046 | 🇩🇪 Germany， Münster | [BL]
+- name: Igareck Node 037 | 🇩🇪 Germany， Münster | [BL]
   type: trojan
   server: "\x35\x2e\x32\x34\x39\x2e\x31\x36\x34\x2e\x32\x38"
   port: 25615
@@ -515,64 +416,4 @@ proxies:
     path: /femboyporn--femboyporn--femboyporn--femboyporn/free-trojan-node/only-smux-supported
     headers:
       Host: op-1.firecone.eu
-  skip-cert-verify: true
-- name: Igareck Node 047 | 🇮🇩 Indonesia， Jakarta | [BL]
-  type: trojan
-  server: "\x33\x34\x2e\x31\x30\x31\x2e\x31\x32\x36\x2e\x31\x35\x30"
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: qfdfsg.wsone.icu
-  client-fingerprint: chrome
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 048 | 🇮🇩 Indonesia， Jakarta | [BL]
-  type: trojan
-  server: "\x33\x34\x2e\x31\x30\x31\x2e\x31\x32\x36\x2e\x31\x35\x30"
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: qfdfsg.wsone.icu
-  client-fingerprint: edge
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 049 | 🇮🇩 Indonesia， Jakarta | [BL]
-  type: trojan
-  server: "\x33\x34\x2e\x31\x30\x31\x2e\x31\x32\x36\x2e\x31\x35\x30"
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: qfdfsg.wsone.icu
-  client-fingerprint: qq
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 050 | 🇮🇩 Indonesia， Jakarta | [BL]
-  type: trojan
-  server: "\x71\x66\x64\x66\x73\x67\x2e\x77\x73\x6f\x6e\x65\x2e\x69\x63\x75"
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: qfdfsg.wsone.icu
-  client-fingerprint: firefox
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 051 | 🇮🇩 Indonesia， Jakarta | [BL]
-  type: trojan
-  server: "\x71\x66\x64\x66\x73\x67\x2e\x77\x73\x6f\x6e\x65\x2e\x69\x63\x75"
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: qfdfsg.wsone.icu
-  client-fingerprint: ios
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 052 | 🇮🇩 Indonesia， Jakarta | [BL]
-  type: trojan
-  server: "\x71\x66\x64\x66\x73\x67\x2e\x77\x73\x6f\x6e\x65\x2e\x69\x63\x75"
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: qfdfsg.wsone.icu
-  client-fingerprint: qq
-  network: tcp
   skip-cert-verify: true

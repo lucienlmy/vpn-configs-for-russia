@@ -521,6 +521,551 @@
       }
     },
     {
+      "tag": "igareck-node-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fi.routeliora.ru",
+            "port": 8443,
+            "users": [
+              {
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dzen.ru",
+          "fingerprint": "chrome",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fi.routeliora.ru",
+            "port": 8443,
+            "users": [
+              {
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dzen.ru",
+          "fingerprint": "edge",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fi.routeliora.ru",
+            "port": 8443,
+            "users": [
+              {
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dzen.ru",
+          "fingerprint": "firefox",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fi.routeliora.ru",
+            "port": 8443,
+            "users": [
+              {
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dzen.ru",
+          "fingerprint": "qq",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-010",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fi.routeliora.ru",
+            "port": 8443,
+            "users": [
+              {
+                "id": "70d482eb-7584-4841-a02a-c668f1ee33e7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dzen.ru",
+          "fingerprint": "safari",
+          "publicKey": "AxzvGjWPl7k1QMOWsRCgtuizgSS5NVWXwRoYsKP-630",
+          "shortId": "f2a3b4c5",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-011",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.168.196.58",
+            "port": 443,
+            "users": [
+              {
+                "id": "2875a31a-8279-4113-a1b1-bb6c87fd8750",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "fingerprint": "android",
+          "publicKey": "vhhWn9SDSPq6LJ_9gPAbUfVc8X4WlGWTCyAk6Td6diE",
+          "shortId": "2f707fa3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-012",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.168.196.58",
+            "port": 443,
+            "users": [
+              {
+                "id": "2875a31a-8279-4113-a1b1-bb6c87fd8750",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "fingerprint": "edge",
+          "publicKey": "vhhWn9SDSPq6LJ_9gPAbUfVc8X4WlGWTCyAk6Td6diE",
+          "shortId": "2f707fa3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-013",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.168.196.58",
+            "port": 443,
+            "users": [
+              {
+                "id": "2875a31a-8279-4113-a1b1-bb6c87fd8750",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "fingerprint": "firefox",
+          "publicKey": "vhhWn9SDSPq6LJ_9gPAbUfVc8X4WlGWTCyAk6Td6diE",
+          "shortId": "2f707fa3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-014",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.168.196.58",
+            "port": 443,
+            "users": [
+              {
+                "id": "2875a31a-8279-4113-a1b1-bb6c87fd8750",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "fingerprint": "ios",
+          "publicKey": "vhhWn9SDSPq6LJ_9gPAbUfVc8X4WlGWTCyAk6Td6diE",
+          "shortId": "2f707fa3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-015",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.168.196.58",
+            "port": 443,
+            "users": [
+              {
+                "id": "2875a31a-8279-4113-a1b1-bb6c87fd8750",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "fingerprint": "safari",
+          "publicKey": "vhhWn9SDSPq6LJ_9gPAbUfVc8X4WlGWTCyAk6Td6diE",
+          "shortId": "2f707fa3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-016",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "108.59.244.158",
+            "port": 8443,
+            "password": "c5756b5011e0d579a924a8ab25f8d440"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "eh.vk.ru",
+          "fingerprint": "android",
+          "publicKey": "kDe41bgjwtN6YQjLGFe-pICa5I3fqnIFFgOmTalyEWo",
+          "shortId": "42bca42a1195"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-017",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "108.59.244.158",
+            "port": 8443,
+            "password": "c5756b5011e0d579a924a8ab25f8d440"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "eh.vk.ru",
+          "fingerprint": "chrome",
+          "publicKey": "kDe41bgjwtN6YQjLGFe-pICa5I3fqnIFFgOmTalyEWo",
+          "shortId": "42bca42a1195"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-018",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "108.59.244.158",
+            "port": 8443,
+            "password": "c5756b5011e0d579a924a8ab25f8d440"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "eh.vk.ru",
+          "fingerprint": "edge",
+          "publicKey": "kDe41bgjwtN6YQjLGFe-pICa5I3fqnIFFgOmTalyEWo",
+          "shortId": "42bca42a1195"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-019",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "108.59.244.158",
+            "port": 8443,
+            "password": "c5756b5011e0d579a924a8ab25f8d440"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "eh.vk.ru",
+          "fingerprint": "firefox",
+          "publicKey": "kDe41bgjwtN6YQjLGFe-pICa5I3fqnIFFgOmTalyEWo",
+          "shortId": "42bca42a1195"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-020",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "108.59.244.158",
+            "port": 8443,
+            "password": "c5756b5011e0d579a924a8ab25f8d440"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "eh.vk.ru",
+          "fingerprint": "qq",
+          "publicKey": "kDe41bgjwtN6YQjLGFe-pICa5I3fqnIFFgOmTalyEWo",
+          "shortId": "42bca42a1195"
+        }
+      }
+    },
+    {
       "tag": "direct",
       "protocol": "freedom",
       "settings": {

@@ -135,7 +135,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.google.com",
-          "fingerprint": "android",
+          "fingerprint": "chrome",
           "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
         }
       }
@@ -170,7 +170,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.google.com",
-          "fingerprint": "chrome",
+          "fingerprint": "edge",
           "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
         }
       }
@@ -205,7 +205,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.google.com",
-          "fingerprint": "ios",
+          "fingerprint": "firefox",
           "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
         }
       }
@@ -240,7 +240,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.google.com",
-          "fingerprint": "safari",
+          "fingerprint": "ios",
           "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
         }
       }
@@ -275,198 +275,8 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.google.com",
-          "fingerprint": "firefox",
+          "fingerprint": "safari",
           "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-006",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.243.235.188",
-            "port": 443,
-            "users": [
-              {
-                "id": "ecf728d9-1555-4e12-b178-1d8bd98465e4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pool.dataroute.biz",
-          "fingerprint": "android",
-          "publicKey": "_ilhBTibNauMOEUqylnlBAUTYiqHHtmEDXkx18SHCR4",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-007",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.243.235.188",
-            "port": 443,
-            "users": [
-              {
-                "id": "ecf728d9-1555-4e12-b178-1d8bd98465e4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pool.dataroute.biz",
-          "fingerprint": "chrome",
-          "publicKey": "_ilhBTibNauMOEUqylnlBAUTYiqHHtmEDXkx18SHCR4",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-008",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.243.235.188",
-            "port": 443,
-            "users": [
-              {
-                "id": "ecf728d9-1555-4e12-b178-1d8bd98465e4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pool.dataroute.biz",
-          "fingerprint": "firefox",
-          "publicKey": "_ilhBTibNauMOEUqylnlBAUTYiqHHtmEDXkx18SHCR4",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-009",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.243.235.188",
-            "port": 443,
-            "users": [
-              {
-                "id": "ecf728d9-1555-4e12-b178-1d8bd98465e4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pool.dataroute.biz",
-          "fingerprint": "ios",
-          "publicKey": "_ilhBTibNauMOEUqylnlBAUTYiqHHtmEDXkx18SHCR4",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-010",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.243.235.188",
-            "port": 443,
-            "users": [
-              {
-                "id": "ecf728d9-1555-4e12-b178-1d8bd98465e4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pool.dataroute.biz",
-          "fingerprint": "qq",
-          "publicKey": "_ilhBTibNauMOEUqylnlBAUTYiqHHtmEDXkx18SHCR4",
-          "spiderX": "/"
         }
       }
     },

@@ -336,11 +336,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "play.main-soft.ru",
-            "port": 1034,
+            "address": "185.241.195.74",
+            "port": 443,
             "users": [
               {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -361,10 +361,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "edge",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "android",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
         }
       }
     },
@@ -374,11 +374,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.18.15.178",
-            "port": 2080,
+            "address": "185.241.195.74",
+            "port": 443,
             "users": [
               {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -399,10 +399,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "chrome",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "firefox",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
         }
       }
     },
@@ -412,11 +412,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.18.15.178",
-            "port": 2080,
+            "address": "185.241.195.74",
+            "port": 443,
             "users": [
               {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -437,10 +437,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "edge",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "ios",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
         }
       }
     },
@@ -450,11 +450,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.18.15.178",
-            "port": 2080,
+            "address": "185.241.195.74",
+            "port": 443,
             "users": [
               {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -475,10 +475,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "firefox",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
+          "serverName": "edge-pull-m4.malina24.xyz",
+          "fingerprint": "qq",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
         }
       }
     },
@@ -488,11 +488,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.18.15.178",
-            "port": 2080,
+            "address": "185.241.195.74",
+            "port": 443,
             "users": [
               {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
+                "id": "6126424f-b7b0-4307-92d5-3e7c5b99c9f9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -513,352 +513,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "qq",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-006",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.18.15.178",
-            "port": 2080,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
+          "serverName": "edge-pull-m4.malina24.xyz",
           "fingerprint": "safari",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-007",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "play.main-soft.ru",
-            "port": 2080,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "chrome",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-008",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "play.main-soft.ru",
-            "port": 2080,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "edge",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-009",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "play.main-soft.ru",
-            "port": 2080,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "firefox",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-010",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "play.main-soft.ru",
-            "port": 2080,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "qq",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-011",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "play.main-soft.ru",
-            "port": 2080,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "safari",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-012",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.18.15.178",
-            "port": 1034,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "chrome",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-013",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.18.15.178",
-            "port": 1034,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "safari",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-014",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "play.main-soft.ru",
-            "port": 1034,
-            "users": [
-              {
-                "id": "38eb3e71-4349-4bd6-9baf-9740e1896495",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "unpkg.com",
-          "fingerprint": "safari",
-          "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
-          "shortId": "b0d8c9a285c70f6f"
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "shortId": "5678"
         }
       }
     },

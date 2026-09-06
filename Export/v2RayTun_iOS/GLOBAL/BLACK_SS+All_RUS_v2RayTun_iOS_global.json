@@ -111,11 +111,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ejomsxptp19apygl.v.3dns.vip",
-            "port": 443,
+            "address": "150.242.244.116",
+            "port": 2648,
             "users": [
               {
-                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "id": "44712929-c2b7-4fa4-93bd-9de332a78c8c",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -124,59 +124,20 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {
-            "Host": "ejomsxptp19apygl.v.3dns.vip"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ejomsxptp19apygl.v.3dns.vip"
         }
       }
     },
     {
       "tag": "igareck-node-002",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ejomsxptp19apygl.v.3dns.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "f23bb427c1f94373876c2f43e9f790f3",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {
-            "Host": "ejOMsxPtP19APyGL.v.3dns.vip"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {}
-      }
-    },
-    {
-      "tag": "igareck-node-003",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -201,7 +162,163 @@
         },
         "wsSettings": {
           "path": "/vmess-ws",
-          "headers": {}
+          "headers": {
+            "Host": "Telegram-Leviko_v2ray"
+          }
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-003",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.160.45.35",
+            "port": 38808,
+            "users": [
+              {
+                "id": "e619d224-0842-4576-a361-3ad2bf0c468c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "littoral.appagent.net",
+            "port": 443,
+            "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "littoral.appagent.net",
+            "port": 443,
+            "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "littoral.appagent.net",
+            "port": 443,
+            "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "safari"
         }
       }
     },

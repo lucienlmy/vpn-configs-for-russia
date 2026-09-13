@@ -58,6 +58,7 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -115,6 +116,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -136,6 +138,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -157,6 +160,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -178,6 +182,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -199,6 +204,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -220,6 +226,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -241,6 +248,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -262,6 +270,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -283,6 +292,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -304,6 +314,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -325,6 +336,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -346,6 +358,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:fr.srv.safes-infrastructure.com",
           "full:de31.rockblack.site"
         ],
         "skipFallback": true,
@@ -413,6 +426,269 @@
       "settings": {
         "vnext": [
           {
+            "address": "109.107.155.189",
+            "port": 8443,
+            "users": [
+              {
+                "id": "482aed33-c5ae-4e1d-bff4-8b0bdb72fb81",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "fingerprint": "chrome",
+          "publicKey": "yg8AxPPiKD1wQ-AlxB8Iwo0w59A4QTVob_FVAl4iuRw",
+          "shortId": "e7d8f0aa"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-002",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.107.155.189",
+            "port": 8443,
+            "users": [
+              {
+                "id": "482aed33-c5ae-4e1d-bff4-8b0bdb72fb81",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "fingerprint": "firefox",
+          "publicKey": "yg8AxPPiKD1wQ-AlxB8Iwo0w59A4QTVob_FVAl4iuRw",
+          "shortId": "e7d8f0aa"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-003",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fr.srv.safes-infrastructure.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "482aed33-c5ae-4e1d-bff4-8b0bdb72fb81",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "fingerprint": "chrome",
+          "publicKey": "yg8AxPPiKD1wQ-AlxB8Iwo0w59A4QTVob_FVAl4iuRw",
+          "shortId": "e7d8f0aa"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fr.srv.safes-infrastructure.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "482aed33-c5ae-4e1d-bff4-8b0bdb72fb81",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "fingerprint": "firefox",
+          "publicKey": "yg8AxPPiKD1wQ-AlxB8Iwo0w59A4QTVob_FVAl4iuRw",
+          "shortId": "e7d8f0aa"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "139.28.241.187",
+            "port": 8443,
+            "users": [
+              {
+                "id": "6be01e14-b937-4ed5-9d2c-074a0da22ffc",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "xn--80ajghhoc2aj1c8b.xn--p1ai",
+          "fingerprint": "firefox",
+          "publicKey": "n0i4qSfWa7-oiLBfY2QBW6UK8JX68tULpkINVm4Hv0Q"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "139.28.241.187",
+            "port": 8443,
+            "users": [
+              {
+                "id": "6be01e14-b937-4ed5-9d2c-074a0da22ffc",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "xn--80ajghhoc2aj1c8b.xn--p1ai",
+          "fingerprint": "qq",
+          "publicKey": "n0i4qSfWa7-oiLBfY2QBW6UK8JX68tULpkINVm4Hv0Q"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de31.rockblack.site",
+            "port": 8443,
+            "users": [
+              {
+                "id": "6be01e14-b937-4ed5-9d2c-074a0da22ffc",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "xn--80ajghhoc2aj1c8b.xn--p1ai",
+          "fingerprint": "chrome",
+          "publicKey": "n0i4qSfWa7-oiLBfY2QBW6UK8JX68tULpkINVm4Hv0Q"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "de31.rockblack.site",
             "port": 8443,
             "users": [
@@ -440,6 +716,43 @@
         "realitySettings": {
           "serverName": "xn--80ajghhoc2aj1c8b.xn--p1ai",
           "fingerprint": "edge",
+          "publicKey": "n0i4qSfWa7-oiLBfY2QBW6UK8JX68tULpkINVm4Hv0Q"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de31.rockblack.site",
+            "port": 8443,
+            "users": [
+              {
+                "id": "6be01e14-b937-4ed5-9d2c-074a0da22ffc",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "xn--80ajghhoc2aj1c8b.xn--p1ai",
+          "fingerprint": "firefox",
           "publicKey": "n0i4qSfWa7-oiLBfY2QBW6UK8JX68tULpkINVm4Hv0Q"
         }
       }
